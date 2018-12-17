@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Информация за ЕГН</title>
+		<link rel="stylesheet" href="egnStyle.css">
+		<script src="egnLogic.js"></script>
+	</head>
+	<body>
+		<div class="form-container">
+		<h2>ИНФОРМАЦИЯ ЗА ЕГН</h2>
+		<form name="egn-form" id="egnForm">
+			<input type="text" name="egn-input" placeholder="Въведи ЕГН тук">
+			<input type="button" value="ПРОВЕРИ" onclick="check()">
+			<input type="button" value="ИЗЧИСТИ" onclick="clean()">
+			<p id="valid" style="text-align: center">  </p>
+			<p id="date">  </p>
+			<p id="pol"> </p>
+			<p id="region"> </p>
+		</form>
+		</div>
+	</body>
+</html>
