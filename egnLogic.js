@@ -158,4 +158,8 @@ function check(){
 
 function clean(){
 	document.getElementById("egnForm").reset();
+	document.getElementById("valid").innerHTML = "";
+	document.getElementById("date").innerHTML = "";
+	document.getElementById("pol").innerHTML = "";
+	document.getElementById("region").innerHTML = "";
 }
